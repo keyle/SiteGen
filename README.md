@@ -38,7 +38,9 @@ Example `template.html`
 
 ### Metadata
 
-Alongside the markdown file, you must provide a `meta.json` (or named different, see `metadatafilename` in the settings) containing the information required for the production of the page
+Alongside the markdown file, you must provide a `meta.json` (or named different, see `metadatafilename` in the settings) containing the information required for the production of the page.
+
+These are to be used in the header of the HTML.
 
 ```meta.json
 {
