@@ -72,4 +72,6 @@ a `.settings.json` file is required along side the executable, e.g.
 
     ./sitegen
 
+The site generator will look from the workdir recursively, through every folder and convert and found markdown file (.md) to an HTML so as long as a `meta.json` is found along with it.
+
 NOTE, by default, it will look for `.settings.json`, but a different settings.json can be provided as parameter: `./sitegen different.json`
