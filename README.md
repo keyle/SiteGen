@@ -37,8 +37,6 @@ Example `template.html`
 
 <head>
     <title>{{%%title%%}}</title>
-    <meta http-equiv="Content-language" content="en"/>
-    <meta name="Author" content="Nicolas Noben"/>
     <meta name="Description" content="{{%%description%%}}"/>
     <meta name="Keywords" content="{{%%keywords%%}}"/>
 </head>
