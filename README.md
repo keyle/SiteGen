@@ -1,4 +1,4 @@
-# SiteGen
+# site-gen
 
 A simple site generator that converts markdown files (.md) to HTML **in situe**, using a given template.
 
