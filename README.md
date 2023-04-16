@@ -4,10 +4,13 @@ A simple site generator that converts markdown files (.md) to HTML **in situe**,
 
 Built and used for my website https://noben.org/
 
-### Requirements: 
+### Requirements 
 
 - Swift 5.8
 - Xcode 14.3
+
+
+### Build
 
 from terminal
 
@@ -27,7 +30,13 @@ a `.settings.json` file is required along side the executable, e.g.
 }
 ```
 
+### Execution
+
+    ./sitegen
+
 It can be provided as a different json from the command line `./sitegen different.json`
+
+### Template
 
 Example `template.html`
 
@@ -46,6 +55,8 @@ Example `template.html`
 </body>
 </html>
 ```
+
+### Metadata
 
 Alongside the markdown file, you must provide a `meta.json` (or named different, see `metadatafilename` in the settings) containing the information required for the production of the page
 
