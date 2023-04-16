@@ -16,20 +16,6 @@ from terminal
 
     make
 
-a `.settings.json` file is required along side the executable, e.g.
-
-```settings.json
-{
-    "workdir": "/Users/User/Documents/path/to/website",
-    "metadatafilename": "meta.json",
-    "template": "templates/template.html",
-    "contenttag": "{{%%content%%}}",
-    "titletag": "{{%%title%%}}",
-    "descriptiontag" : "{{%%description%%}}",
-    "keywordstag": "{{%%keywords%%}}"
-}
-```
-
 ### Template
 
 Example `template.html`
@@ -64,10 +50,24 @@ Alongside the markdown file, you must provide a `meta.json` (or named different,
 }
 ```
 
+### Settings
+
+a `.settings.json` file is required along side the executable, e.g.
+
+```settings.json
+{
+    "workdir": "/Users/User/Documents/path/to/website",
+    "metadatafilename": "meta.json",
+    "template": "templates/template.html",
+    "contenttag": "{{%%content%%}}",
+    "titletag": "{{%%title%%}}",
+    "descriptiontag" : "{{%%description%%}}",
+    "keywordstag": "{{%%keywords%%}}"
+}
+```
 
 ### Execution
 
     ./sitegen
 
-
-It can be provided as a different json from the command line `./sitegen different.json`
+NOTE, by default, it will look for `.settings.json`, but a different settings.json can be provided as parameter: `./sitegen different.json`
