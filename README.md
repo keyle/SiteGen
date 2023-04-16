@@ -30,10 +30,6 @@ a `.settings.json` file is required along side the executable, e.g.
 }
 ```
 
-### Execution
-
-    ./sitegen
-
 It can be provided as a different json from the command line `./sitegen different.json`
 
 ### Template
@@ -69,3 +65,8 @@ Alongside the markdown file, you must provide a `meta.json` (or named different,
 	]
 }
 ```
+
+
+### Execution
+
+    ./sitegen
