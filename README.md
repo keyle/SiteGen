@@ -2,7 +2,7 @@
 
 A simple site generator that converts markdown files (.md) to HTML **in situe**, using a given template.
 
-Built and used for my website https://noben.org/
+Built and previously used for my website. Subsenquently replaced by `site-gen-rust` (see other repo).
 
 ### Requirements 
 
